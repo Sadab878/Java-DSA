@@ -5,9 +5,8 @@ class Cricketer{
     String name;
 }
 public class finalandstatic {
-    public static void main(String[] args) {
-        Cricketer c1 = new Cricketer();
-        c1.country = "India";
-        System.out.println(c1.country);
+    public static void main(String[] args){
+        Cricketer.country = "India";
+        System.out.println(Cricketer.country);
     }
 }
