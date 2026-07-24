@@ -11,8 +11,19 @@ public class Reverse_Array {
             arr[j] = temp;
             i++;
             j--;
+            
         }
-        for(int ele : arr) System.out.print(ele + " ");
+        for(int ele : arr){
+            
+            System.out.print(ele + " ");
+        } 
+
+        // int[] arr = {1,2,3,4,5};
+
+        // for(int i = arr.length-1; i >= 0; i--){
+        // System.out.print(arr[i]+" ");
+
+        // }
 
     }
 }

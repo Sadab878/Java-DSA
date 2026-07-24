@@ -3,7 +3,7 @@ package Arrays;
 import java.util.Arrays;
 
 public class Rotate_Array {
-    static void rotate(int arr[], int k) {
+    public static void rotate(int arr[], int k) {
         int n = arr.length;
 
         // Handle cases where k > n

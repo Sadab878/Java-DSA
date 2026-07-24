@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Sumofarray {
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        // int[] arr ={1,2,3,4,5};
 
         System.out.print("Enter array size: ");
         int n = sc.nextInt();
